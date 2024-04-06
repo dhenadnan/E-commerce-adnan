@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUHAMMAD ADNAN AZHARI</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">Portofolio Saya</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portofolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="container my-5">
+      <h2 class="text-center">Tentang Saya</h2>
+      <p class="lead text-center">
+        Selamat datang di portofolio saya. perkenalkan nama saya Muhammad Adnan
+        Azhari, Saya adalah seorang Mahasiswa Universitas Mercu Buana
+        Yogyakarta.
+      </p>
+    </section>
+
+    <section id="portfolio" class="container my-5">
+      <h2 class="text-center">Portofolio</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="portfolio-item">
+            <img
+              src="https://th.bing.com/th/id/OIP.TY_r18jd994dWn480wfQKQHaE7?w=272&h=180&c=7&r=0&o=5&pid=1.7"
+              alt="Deskripsi Gambar 1"
+              class="img-fluid"
+            />
+            <p>
+              Desainer grafis adalah profesional yang menciptakan komunikasi
+              visual melalui penggunaan elemen desain grafis, seperti logo,
+              brosur, website, dan lainnya. Mereka memiliki kreativitas,
+              kemampuan teknis, dan pemahaman tentang pengaruh visual untuk
+              menciptakan karya yang menarik dan efektif.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="portfolio-item">
+            <img
+              src="https://th.bing.com/th/id/OIP.04oi9zJun3lcqp-89sKqpwHaEg?w=288&h=180&c=7&r=0&o=5&pid=1.7"
+              alt="Deskripsi Gambar 2"
+              class="img-fluid"
+            />
+            <p>
+              Programmer website adalah individu yang memiliki pengetahuan dan
+              keterampilan dalam merancang, mengembangkan, dan memelihara situs
+              web menggunakan bahasa pemrograman web dan frameworks modern.
+              Mereka menciptakan website yang fungsional, responsif, dan aman
+              sesuai dengan kebutuhan pengguna.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="container my-5">
+      <h2 class="text-center">Hubungi Saya</h2>
+      <form action="kirim-email.php" method="post">
+        <div class="form-group">
+          <label for="nama">Nama:</label>
+          <input
+            type="text"
+            id="nama"
+            name="nama"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            class="form-control"
+            required
+          />
+        </div>
+        <div class="form-group">
+          <label for="pesan">Pesan:</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            class="form-control"
+            required
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Kirim</button>
+      </form>
+    </section>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2024 Portofolio Saya. Dibuat Karna ASN.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
